@@ -1,0 +1,138 @@
+mass    1    12.010700000 # C_R^M
+mass    2     1.007940000 # H_^M
+mass    3    15.999400000 # O_R^M
+mass    4    12.010700000 # C_2^M
+mass    5    91.224000000 # Zr3+4^M
+mass    6    15.999400000 # O_2^M
+mass    7    55.845000000 # Fe6+2^M
+mass    8    35.453000000 # Cl^M
+mass    9    14.006700000 # N_R^M
+mass   10    12.010700000 # C_3^M
+mass   11    12.010700000 # C_1^M
+mass   12    15.999400000 # O_3^M
+mass   13    1.007940000 # H_
+mass   14    15.999400000 # O_3
+mass   15    1.007940000 # H_
+mass   16   35.453000000 # Cl
+mass   17    12.010700000 # C_3^M
+mass   18    1.007940000 # H_^M
+mass   19    15.999400000 # O_3^M
+mass   20   14.006700000 # N_3^M
+mass   21   12.010700000 # C_R^M
+mass   22    1.007940000 # H_^M
+mass   23   15.999400000 # O_2^M
+mass   24   12.010700000 # C_3^M
+   
+bond_coeff    1      462.655054        1.379256  # C_R C_R^M
+bond_coeff    2      663.718927        1.345073  # C_R N_R^M
+bond_coeff    3      357.440381        1.081418  # C_R H_^M
+bond_coeff    4      646.680887        1.311940  # O_R C_R^M
+bond_coeff    5      291.001389        2.127094  # O_R Zr3+4^M
+bond_coeff    6      389.261715        1.461000  # C_2 C_R^M
+bond_coeff    7      520.539552        1.326110  # C_2 C_R^M
+bond_coeff    8      391.669513        1.458000  # C_R C_R^M
+bond_coeff    9      308.999548        2.084967  # Zr3+4 O_2^M
+bond_coeff   10      159.500037        2.281673  # Fe6+2 Cl^M
+bond_coeff   11      260.805151        1.989182  # Fe6+2 N_R^M
+bond_coeff   12      119.778354        1.686455  # Fe6+2 H_^M
+bond_coeff   13      474.325833        0.708000  # H_ H_^M
+bond_coeff   14      349.795899        1.514000  # C_3 C_3^M
+bond_coeff   15      331.069389        1.109401  # C_3 H_^M
+bond_coeff   16      369.943935        1.486000  # C_3 C_R^M
+bond_coeff   17      387.667471        1.463000  # C_3 C_1^M
+bond_coeff   18      852.955211        1.196287  # C_1 O_2^M
+bond_coeff   19      0.0               0.9572  # O_3 H_
+bond_coeff   20      349.795899        1.514000  # C_3 C_3^M
+bond_coeff   21      528.634538        1.451071  # C_3 N_3^M
+bond_coeff   22      331.069389        1.109401  # C_3 H_^M
+bond_coeff   23      539.248552        1.393845  # C_3 O_3^M
+bond_coeff   24      559.995206        0.990254  # O_3 H_^M
+bond_coeff   25      527.945261        1.044419  # N_3 H_^M
+bond_coeff   26      1000.0  0.9730 # O_3 H_
+
+angle_coeff    1              cosine/periodic      153.699352              -1               3 # C_R C_R N_R^M
+angle_coeff    2              cosine/periodic       57.289016              -1               3 # C_R C_R H_^M
+angle_coeff    3              cosine/periodic       79.786967              -1               3 # N_R C_R H_^M
+angle_coeff    4              cosine/periodic      111.297508              -1               3 # C_R C_R C_R^M
+angle_coeff    5              cosine/periodic      124.830884              -1               3 # C_R O_R Zr3+4^M
+angle_coeff    6              cosine/periodic      107.578571              -1               3 # C_R C_2 C_R^M
+angle_coeff    7              cosine/periodic       93.641815              -1               3 # C_R C_2 C_R^M
+angle_coeff    8              cosine/periodic      101.852144              -1               3 # C_2 C_R C_R^M
+angle_coeff    9              cosine/periodic      140.371620              -1               3 # C_2 C_R N_R^M
+angle_coeff   10              cosine/periodic      102.183280              -1               3 # C_R C_R C_R^M
+angle_coeff   11              cosine/periodic      187.136328              -1               3 # O_R C_R O_R^M
+angle_coeff   12              cosine/periodic      131.755710              -1               3 # O_R C_R C_R^M
+angle_coeff   13              cosine/periodic      117.927290              -1               3 # C_2 C_R C_R^M
+angle_coeff   14              cosine/periodic      163.079896              -1               3 # C_2 C_R N_R^M
+angle_coeff   15                      fourier      115.139800        0.343737        0.374972        0.281246 # O_R Zr3+4 O_2^M
+angle_coeff   16                      fourier      111.773978        0.343737        0.374972        0.281246 # O_R Zr3+4 O_R^M
+angle_coeff   17                      fourier      118.687092        0.343737        0.374972        0.281246 # O_2 Zr3+4 O_2^M
+angle_coeff   18              cosine/periodic      106.267703               1               4 # Cl Fe6+2 N_R^M
+angle_coeff   19              cosine/periodic       34.852384               1               4 # Cl Fe6+2 H_^M
+angle_coeff   20              cosine/periodic      144.801568               1               4 # N_R Fe6+2 N_R^M
+angle_coeff   21              cosine/periodic       50.182923               1               4 # N_R Fe6+2 H_^M
+angle_coeff   22              cosine/periodic      118.513834              -1               3 # Zr3+4 O_2 Zr3+4^M
+angle_coeff   23              cosine/periodic      120.000516              -1               3 # C_R N_R C_R^M
+angle_coeff   24              cosine/periodic       76.309705              -1               3 # C_R N_R Fe6+2^M
+angle_coeff   25              cosine/periodic       78.894915               1               1 # C_R H_ H_^M
+angle_coeff   26                      fourier      117.318683        0.343737        0.374972        0.281246 # C_3 C_3 H_^M
+angle_coeff   27                      fourier      220.229931        0.343737        0.374972        0.281246 # C_3 C_3 C_R^M
+angle_coeff   28                      fourier      121.777217        0.343737        0.374972        0.281246 # H_ C_3 C_R^M
+angle_coeff   29                      fourier       75.498766        0.343737        0.374972        0.281246 # H_ C_3 H_^M
+angle_coeff   30                      fourier      214.211821        0.343737        0.374972        0.281246 # C_3 C_3 C_3^M
+angle_coeff   31                      fourier      225.286699        0.343737        0.374972        0.281246 # C_3 C_3 C_1^M
+angle_coeff   32                      fourier      125.579302        0.343737        0.374972        0.281246 # C_1 C_3 H_^M
+angle_coeff   33              cosine/periodic       77.649148               1               1 # C_3 C_1 O_2^M
+angle_coeff   34              cosine/periodic      128.255556               1               1 # O_2 C_1 O_2^M
+angle_coeff   35              cosine/periodic       75.306472               1               1 # C_3 H_ H_^M
+angle_coeff   36              cosine/periodic      127.658657              -1               3 # C_3 C_R O_R^M
+angle_coeff   37                      harmonic     0 104.52  # H_ O_3 H_^M
+angle_coeff   38                      fourier      214.211821        0.343737        0.374972        0.281246 # C_3 C_3 C_3^M
+angle_coeff   39                      fourier      303.297032        0.343737        0.374972        0.281246 # C_3 C_3 N_3^M
+angle_coeff   40                      fourier      117.318683        0.343737        0.374972        0.281246 # C_3 C_3 H_^M
+angle_coeff   41                      fourier      290.032745        0.343737        0.374972        0.281246 # C_3 C_3 O_3^M
+angle_coeff   42                      fourier       75.498766        0.343737        0.374972        0.281246 # H_ C_3 H_^M
+angle_coeff   43                      fourier      165.777838        0.343737        0.374972        0.281246 # H_ C_3 O_3^M
+angle_coeff   44                      fourier      174.162395        0.300235        0.267331        0.266745 # C_3 O_3 H_^M
+angle_coeff   45                      fourier      144.695053        0.317506        0.313225        0.272502 # C_3 N_3 H_^M
+angle_coeff   46                      fourier       97.017167        0.317506        0.313225        0.272502 # H_ N_3 H_^M
+angle_coeff   47                      harmonic     1500.0  111.6  # H_ O_3 H_
+
+dihedral_coeff    1        3.368555              -1               2 # N_R C_R C_R H_^M
+dihedral_coeff    2        6.737110              -1               2 # Zr3+4 O_R C_R O_R^M
+dihedral_coeff    3        1.250000              -1               2 # C_R C_2 C_R C_R^M
+dihedral_coeff    4        4.871694              -1               2 # C_R C_2 C_R C_R^M
+dihedral_coeff    5        0.500000               1               3 # C_R C_R H_ H_^M
+dihedral_coeff    6        0.117722               1               3 # H_ C_3 C_3 C_3^M
+dihedral_coeff    7        0.833333              -1               2 # C_3 C_3 C_R O_R^M
+dihedral_coeff    8        0.117722               1               3 # C_3 C_3 C_3 H_^M
+dihedral_coeff    9        0.054250               1               3 # C_3 C_3 N_3 H_^M
+dihedral_coeff   10        0.343107               1               2 # C_3 C_3 O_3 H_^M
+
+improper_coeff    1        2.000000        1.000000       -1.000000        0.000000               0 # C_R C_R N_R H_^M
+
+pair_coeff   1    1    0.105000        3.430851
+pair_coeff   2    2    0.044000        2.571134
+pair_coeff   3    3    0.060000        3.118146
+pair_coeff   4    4    0.105000        3.430851
+pair_coeff   5    5    0.069000        2.783168
+pair_coeff   6    6    0.060000        3.118146
+pair_coeff   7    7    0.013000        2.594297
+pair_coeff   8    8    0.227000        3.516377
+pair_coeff   9    9    0.069000        3.260689
+pair_coeff   10   10   0.105000        3.430851
+pair_coeff   11   11   0.105000        3.430851
+pair_coeff   12   12   0.102000        3.188000
+pair_coeff   13   13   0.0             0.0
+pair_coeff   14   14   0.27406         2.900898
+pair_coeff   15   15   0.000000        0.000000
+pair_coeff   16   16   0.227000        3.516377
+pair_coeff   17   17   0.105000        3.430851
+pair_coeff   18   18   0.044000        2.571134
+pair_coeff   19   19   0.060000        3.118146
+pair_coeff   20   20   0.069000        3.260689
+pair_coeff   21   21   0.105000        3.430851
+pair_coeff   22   22   0.044000        2.571134
+pair_coeff   23   23   0.060000        3.118146
+pair_coeff   24   24   0.105000        3.430851
+
