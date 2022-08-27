@@ -54,6 +54,11 @@ make mpi<br/>
 export PATH=/home/hj/software/fftw3/bin:/home/hj/software/mpich3/bin:$PATH<br/>
 export LD_LIBRARY_PATH=/home/hj/software/fftw3/lib:/home/hj/software/mpich3/lib:$LD_LIBRARY_PATH<br/>
 export PATH=/home/hj/software/lammps-3Mar20/bin:$PATH<br/>
+# Demo
+## Test
+mpirun -np 2 lmp_mpi < in.shear
+### Expected output: 
+* log.lammps
 # Instructions for use
 ## Equilibrium
 nohup mpirun -np 36 ./lmp_mpi < input_27_0.lammps
