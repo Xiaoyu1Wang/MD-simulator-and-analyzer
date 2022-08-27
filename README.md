@@ -1,7 +1,9 @@
 MD-simulator-and-analyzer
 =======
 # Overview
-LAMMPS is a classical molecular dynamics code with a focus on materials modeling. It's an acronym for Large-scale Atomic/Molecular Massively Parallel Simulator.
+LAMMPS is a classical molecular dynamics code with a focus on materials modeling. It's an acronym for Large-scale Atomic/Molecular Massively Parallel Simulator.<br/>
+The Weighted Histogram Analysis Method (WHAM) is one of the earliest methods that take into account information from all Intermediate States. By analyzing all the information at once, we can reduce the number of cycles and loops me must run through, improving efficiency. The precursor to WHAM and first version of multiple histogram relighting techniques came from Ferrenberg and Swendsen.<br/>
+VMD is a molecular visualization program for displaying, animating, and analyzing large biomolecular systems using 3-D graphics and built-in scripting. VMD supports computers running MacOS X, Unix, or Windows, is distributed free of charge, and includes source code.
 # System Requirements
 ## Software requirements
 ### OS Requirements
@@ -53,4 +55,12 @@ export PATH=/home/hj/software/fftw3/bin:/home/hj/software/mpich3/bin:$PATH<br/>
 export LD_LIBRARY_PATH=/home/hj/software/fftw3/lib:/home/hj/software/mpich3/lib:$LD_LIBRARY_PATH<br/>
 export PATH=/home/hj/software/lammps-3Mar20/bin:$PATH<br/>
 # Instructions for use
+## Equilibrium
 nohup mpirun -np 36 ./lmp_mpi < input_27_0.lammps
+## FreeEnergy
+### MD simulations
+nohup mpirun -np 36 ./lmp_mpi < input.lammps
+### Wham
+./wham 9 78 150 1e-8 300 0 meta.dat PMF.dat
+## Analyse
+vmd -e *.tcl
