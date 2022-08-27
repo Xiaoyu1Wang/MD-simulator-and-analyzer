@@ -27,9 +27,7 @@ cd software
 tar -xvf lammps-stable.tar.gz
 cd lammps-3Mar20/src/MAKE
 vi Makefile.mpi
-================================
 Modify the section
-================================
 CC = g++
 LINK = g++
 MPI_INC = -DMPICH_SKIP_MPICXX -I/home/hj/software/mpich3/include
